@@ -1,11 +1,4 @@
 version: '3.7'
-
-services:
-  account:
-    image: sii/ms:2.0.0
-    restart: always
-    ports:
-      - "7898:8080"
   db:
     image: postgres
     restart: always
